@@ -1,0 +1,39 @@
+h1{ /* Referencia a elemento */
+    color: rgb(255, 0, 255); /* Esto es un comentario */
+    
+}
+
+#ced{ /* Referencia a ID */
+    color: #33b5e5;
+}
+
+.contenido{ /* Referencia a Clase */
+    background: #333333;
+    padding: 10px;
+    border: 3px dotted #eeeeee;
+    margin: 20px 10px 10px 10px;
+}
+
+p, .contenido{
+    margin-left: 18px;
+    
+}
+
+p .importante{ /*Para toda clase .importante en p */
+    font-size: 1em; 
+    color: #ff4444;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 10px;
+}
+
+.contenido.white{ /*Para toda clase .white con .contenido */
+    color: #ffffff;
+    text-align:  center;
+}
+
+.contenido.blue{
+    color: #0000ff;
+}
+

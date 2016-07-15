@@ -6,14 +6,28 @@
         <meta name='description' content='Ejemplo de doc html'>
         <title>hola mundo</title>
         <link rel='shortcut icon' href='images/icon.png'>
+        <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        <h1>La mejor pagina del mundo</h1>
+        <!--Enlaces-->
+
+        <a href="pantalla2.html">Siguiente Pantalla</a> <br>
+        <a href="#texto">Texto</a> | 
+        <a href="#listas">Listas</a> |
+        <a href="#tablas">Tablas</a> |
+        <a href="#multimedia">Multimedia</a> |
+        <a href="#formularios">Formularios</a> |
+        <a href="#frames">Frames</a>
+
+        <!--Texto-->
+        <a id="texto"></a>
+        <h1 class="contenido">La mejor pagina del mundo</h1>
+        <h1>Titulo 2</h1>
 
         <p> mi nombre es <b>Dario Chamorro<b></p>
         <p>tengo <i>26 años</i> </p>
         <hr>
-        <pre>
+        <pre class="contenido">
             Soy Ingeniero en
                 Electronica y
                     Telecomunicaciones
@@ -25,7 +39,9 @@
             sub<sub>0</sub>
         </p>
 
-        <ol>
+        <!--listas-->
+        <a id="listas"></a>
+        <ol class="contenido">
             <li>Amarillo</li>
             <li>Rojo</li>
             <li>Azul</li>
@@ -46,9 +62,10 @@
                 <dd>Lenguaje de programacion para la logica </dd>
             </dt>
         </dl>
-
+        <!--Tablas-->
+        <a id="tablas"></a>
         <table border="1">
-            
+            <caption>Usuarios</caption>
             <thead>
                 <tr>
                     <th>Nombre</th>
@@ -106,6 +123,8 @@
            </tr>
         </table>
 
+<!--Multimedia-->
+        <a id="multimedia"></a>
         <img src="images/gato.jpg" alt="Gato" height="300">
 
         <audio controls>
@@ -117,6 +136,8 @@
         <hr>
         <br>
 
+<!--Formularios-->
+        <a id="formularios"></a>
         <form>
 
             <label for="nom" >Nombre</label>
@@ -172,7 +193,16 @@
             <input type="submit" value="Enviar">
             <input type="reset" value="Reiniciar">   
 
+            <button> Boton </button>
+
         </form>
+
+        <br>
+        
+        <!--Frames-->
+        <a id="frames"></a>
+        <iframe src="pantalla2.html" frameborder="1"></iframe>
+
     
     </body>
 </html>
