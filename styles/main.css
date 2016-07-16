@@ -64,3 +64,28 @@ p .importante{ /*Para toda clase .importante en p */
     color: white;    
 }
 
+.img-parrafo{
+    float: left;
+}
+
+.boton{
+    background: greenyellow;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Cursor sobre elemento*/
+.boton:hover{
+    background: lightseagreen;
+}
+
+.boton:active{
+    background: green;
+}
+
+
+
+
+
