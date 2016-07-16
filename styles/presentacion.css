@@ -36,7 +36,7 @@ body{
     font-weight: lighter;
 }
 
-.nav li a:hover{
+.nav li:hover{
     background: #eeeeee;
 }
 
@@ -51,5 +51,28 @@ body{
 .nav .login a:hover{
     background: royalblue;
 }
+
+.downdrop-content{
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    background: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.downdrop-content a{
+    padding: 10px;
+}
+
+.downdrop-content a:hover{
+    background: #33b5e5;
+}
+
+.downdrop:hover .downdrop-content{
+    display: block;
+}
+
+
+
 
 
