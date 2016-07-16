@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.center-crop{
+    background-position: center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+
+.img-main{
+    background-image: url("../images/main.jpg");
+    width: 100%;
+    height: 270px;
+    clear: left;
+}
+
+.nav{
+    display: inline;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav li{
+    /*display: inline-block;*/
+    float: left; 
+}
+
+.nav li a{
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    color: #333333;
+    font-weight: lighter;
+}
+
+.nav li a:hover{
+    background: #eeeeee;
+}
+
+.nav .login{
+    background: dodgerblue;
+    float: right;
+}
+.nav .login a{
+    color: white;
+}
+
+.nav .login a:hover{
+    background: royalblue;
+}
+
+
