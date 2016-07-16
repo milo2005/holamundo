@@ -37,3 +37,30 @@ p .importante{ /*Para toda clase .importante en p */
     color: #0000ff;
 }
 
+.contenedor{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #888888;
+}
+
+
+.contenedor div{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px;
+    background: #444444;
+    color: white;
+}
+.contenido2{
+    display: block;
+    margin: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background: green;
+    color: white;    
+}
+
