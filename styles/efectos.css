@@ -1,0 +1,88 @@
+@keyframes colores{
+
+    0%{
+        color: red;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: green;
+    }
+    75%{
+        color: blue;
+    }
+   
+
+}
+
+.card{
+    width: 280px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    border: 1px solid #aaaaaa;
+    transition: transform 1s, box-shadow 1s;
+}
+
+.card:hover{
+    transform: skew(20deg);
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+}
+
+.card .header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    padding-top: 60px;
+    border-radius: 6px 6px 0px 0px; 
+    font-size: 1.7em;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.card .header img{
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 50%;
+}
+
+.card .content{
+    padding:10px;
+    font-size: 0.8em; 
+    color: #444444;
+    text-align: center;
+    animation-name: colores;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+     
+}
+
+@keyframes nombre{
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform:rotate(360deg);
+    }
+    20%{
+        transform: translateX(200px) rotate(360deg);
+    }30%{
+        transform: translateX(200px) rotate(0deg);
+        
+    }40%{
+        transform: translateX(0px);
+    }
+
+
+}
+
+.nombre{
+    display: inline-block;
+    animation-name: nombre;
+    animation-duration: 10s;
+}
+
+
