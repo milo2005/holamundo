@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='keywords' content='hola,mundo'>
+        <meta name='description' content='Ejemplo de doc html'>
+        <title>Pantalla 2</title>
+        <link rel='shortcut icon' href='images/icon.png'>
+        <script src="js/login.js"></script>
+    </head>
+    <body onload="initTime()">
+        <label for="usr">Usuario</label>
+        <input id="usr" type="text"> <br>
+        <label for="pass">Contraseña</label>
+        <input id="pass" type="password"> <br>
+        <button onclick="validate()">Entrar</button>
+        <div id="msg"></div>
+
+        <hr>
+
+        <button onclick="start()">Iniciar</button>
+        <button onclick="pause()">Pausar</button>
+        <button onclick="stop()">Detener</button>
+
+        <div id="hora">00:00</div>
+
+        <hr>
+
+        <div id="tiempo">00:00</div>
+
+    </body>
+</html>
